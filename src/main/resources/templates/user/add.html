@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Add User</title>
+</head>
+<body>
+<form th:action="@{/user}" method="POST">
+
+    // Input - Username
+    <label>Username:
+    <input type="text" name="username>"> </label>
+
+    // Input - email
+    <label>Email:
+    <input type="email" name="email>"></label>
+
+    // Input - password
+    <label>Password:
+    <input type="password" name="password>"></label>
+
+    // Input - verifypassword
+    <label>Verifypassword:
+    <input type="verifypassword" name="verifypassword>"></label>
+
+</form>
+</body>
+</html>
